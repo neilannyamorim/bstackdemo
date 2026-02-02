@@ -19,7 +19,7 @@ describe('Carrinho', () => {
       .click()
 
       // Assert de um requisito mensagem de "Adicionado ao carrinho"
-    cy.contains('Adicionado ao carrinho')
+    cy.contains('Added to cart')
       .should('be.visible')
           
   })
